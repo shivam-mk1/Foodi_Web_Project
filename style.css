@@ -1,0 +1,946 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+#foodi{
+    position: absolute;
+    left: 80px;
+    top: 0px;
+    padding: 0;
+    margin-top: 18px;
+    width: 80px;
+    height: 28px;
+}
+#home{
+    position: absolute;
+    left: 300px;
+    top: 20px;
+    font-size: 18px;
+    width: 60px;
+    height: 20px;
+    color: #39DB4A;
+    border: 0;
+    background-color: white;
+}
+#menu{
+    position: absolute;
+    left: 400px;
+    top: 20px;
+    font-size: 18px;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    background-color: white;
+}
+#servs{
+    position: absolute;
+    left: 500px;
+    top: 20px;
+    font-size: 18px;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    background-color: white;
+}
+
+#offer{
+    position: absolute;
+    left: 600px;
+    top: 20px;
+    font-size: 18px;
+    width: 60px;
+    height: 20px;
+    border: 0px;
+    background-color: white;
+}
+#search{
+    position: absolute;
+    left: 900px;
+    top: 20px;
+    width: 20px;
+    height: 20px;
+}
+#cart{
+    position: absolute;
+    left: 980px;
+    top: 18px;
+    width: 20px;
+    height: 20px;
+}
+#contact{
+    position: absolute;
+    top: 8px;
+    left: 1050px;
+    border: 0px;
+    border-radius: 50px;
+    width: 120px;
+    height: 40px;
+    color: white;
+    background-color: #39DB4A;
+    padding: 10px 10px 10px 10px;
+    font-size: 16px;
+}
+#phone{
+    padding: 0;
+    margin: 2px 4px -3px 8px;
+    width:15px;
+    height: 15px;
+}
+
+.body{
+    width: 1100px;
+    /* border: 2px solid black; */
+    font-family: sans-serif;
+    position: absolute;
+    top: 100px;
+    /* left: 110px; */
+    padding-left: 100px;
+    padding-right: 100px;
+    height: 2000px;
+}
+#fpage{
+    position: absolute;
+    top: 100px;
+    height: 350px;
+    width: 640px;
+}
+#fpage > h1{
+    font-weight: 800;
+    font-size: 40px;
+    width: 450px;
+}
+#food{
+    color: #39DB4A;
+}
+
+#fpage > p{
+    line-height: 22px;
+    position: relative;
+    top: 20px;
+    width: 60%;
+}
+
+#order{
+    font-size: 15px;
+    box-shadow:0px 5px 15px 0px #5FE26C;
+    position: relative;
+    top: 80px;
+    /* left: 10px; */
+    width: 120px;
+    padding: 10px 10px 10px 10px;
+    border: 2px solid #39DB4A;
+    border-radius: 50px;
+    background-color:#39DB4A;
+    color: white;
+}
+#play{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    top: 13.5px;
+    left: 15px;
+}
+#playbox{
+    box-shadow: 0px 5px 5px 0px #e8e7e7;
+    border: 0.5px solid white;
+    position: relative;
+    left: 265px;
+    top: 35px;
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+#img1{
+    position: relative;
+    left:450px;
+    width: 650px;
+    height: 650px;
+    top: -50px;
+}
+#fpage > span{
+    position: relative;
+    top: 82px;
+    left: 30px;
+}
+#review1{
+    box-shadow:0px 10px 100px 0px #bcbbbb;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    left: 635px;
+    width: 240px;
+    height: 95px;
+}
+#review2{
+    box-shadow:0px 10px 100px 0px #bcbbbb;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: white;
+    position: absolute;
+    top: 550px;
+    left: 920px;
+    width: 250px;
+    height: 95px;
+}
+#img3{
+    position: relative;
+    margin: 5px 5px 5px 5px;
+    top: 10px;
+    left: 10px;
+    right: 15px;
+    width: 65px;
+    height: 65px;
+}
+#noodle{
+    position: relative;
+    left: 80px;
+    top: -39px;
+}
+#veg{
+    position: relative;
+    left: 80px;
+    top: -39px;
+}
+#img5{
+    margin: 5px 5px 5px 5px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+    right: 15px;
+    width: 65px;
+    height: 65px;
+}
+
+#img4{
+    position: relative;
+    left: 80px;
+    top: -38px;
+    height: 10px;
+}
+#img6{
+    position: relative;
+    left: 80px;
+    top: -38px;
+    height: 10px;
+}
+.dollar{
+    color: red;
+    position: relative;
+    left: 10px;
+    top: -16px;
+    font-size: 13px;
+}
+.price{
+    color: #555555;
+    position: relative;
+    left: 90px;
+    top: -34px;
+}
+.desc{
+    position: relative;
+    top: -25px;
+    left: 20px;
+}
+
+#spage{
+    height: 600px;
+    width: 1000;
+}
+#spage > #heads > p{
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 174px;
+    position: relative;
+    top: 130px;
+    left: 500px;
+    margin-bottom: 15px;
+    font-size: 0.7em;
+    color: red;
+}
+#spage > #heads > h1{
+    font-size: 42px;
+    width: 400px;
+    position: relative;
+    top: 130px;
+    left: 35%;
+}
+
+#burgers{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px #bcbbbb;
+    position: relative;
+    /* left: 110px; */
+    top: 203px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#sandwiches{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px #bcbbbb;
+    position: relative;
+    left: 280px;
+    top: -15px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#dessert{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px #bcbbbb;
+    position: relative;
+    left: 560px;
+    top: -235px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+#drinks{
+    border: 1px solid white;
+    box-shadow: 0px 0px 10px 0px #bcbbbb;
+    position: relative;
+    left: 840px;
+    top: -455px;
+    width: 220px;
+    height: 220px;
+    border-radius: 20px;
+}
+
+
+.container{
+    position: relative;
+    top: 25px;
+    left: 60px;
+    height: 100px;
+    width: 100px;
+    background-color:#39db497e;
+    border-radius: 50%;
+}
+#burgers > div > img{
+    border-radius: 50%;
+    position: relative;
+    top: 15px;
+    left: 2.5px;
+    width: 95px;
+    height: 70px;
+}
+#sandwiches > div > img{
+    position: relative;
+    top: 25px;
+    left: 17.5px;
+    width: 65px;
+    height: 50px;
+}
+#dessert > div > img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+    width: 70px;
+    height: 70px;
+}
+#drinks > div > img{
+    position: relative;
+    top: 15px;
+    left: 15px;
+
+    width: 70px;
+    height: 70px;
+}
+
+#burgers > p{
+    width: 90px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 65px;
+    top: 40px;
+}
+#sandwiches > p{
+    width: 120px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 63px;
+    top: 40px;
+}
+#dessert > p{
+    width: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 75px;
+    top: 40px;
+}
+#drinks > p{
+    width: 100px;
+    font-size: 18px;
+    font-weight: bold;
+    position: relative;
+    left: 65px;
+    top: 40px;
+}
+
+#burgers > span{
+    font-size: 14px;
+    color:#555555;
+    position: relative;
+    top: 45px;
+    left: 72px;
+}
+#sandwiches > span{
+    font-size: 14px;
+    color:#555555;
+    position: relative;
+    top: 45px;
+    left: 65px;
+}
+#dessert > span{
+    font-size: 14px;
+    color:#555555;
+    position: relative;
+    top: 45px;
+    left: 75px;
+}
+#drinks > span{
+    font-size: 14px;
+    color:#555555;
+    position: relative;
+    top: 45px;
+    left: 75px;
+}
+
+#heads2{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+#heads2 > p{
+    display: flex;
+    font-size: 0.8em;
+    color: red;
+    font-weight: bold;
+    letter-spacing: 2px;    
+    width: 140px;
+}
+#heads2 > h1{
+    display: flex;
+    font-size: 40px;
+}
+
+.items{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.items > li{
+    list-style-type: none;
+    width: 300px;
+    height: 380px;
+    border-radius: 25px;
+    padding-left: 30px;
+    box-shadow: 0px 0px 10px 0px #bcbbbb;
+}
+.star{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    top: 2px;
+}
+#filled{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 21px;
+    top: 16px;
+}
+#empty{
+    width: 18px;
+    height: 18px;
+    position: relative;
+    left: 21px;
+    top: 16px;
+}
+.heart{
+    width: 60px;
+    height: 50px;
+    position: relative;
+    left: 240px;
+    top: 0px;
+    background-color: #39DB4A;
+    border-radius: 0px 25px 0px 25px;
+}
+.salad_1{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 35px;
+}
+.name{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
+.description{
+    color: #555555;
+    font-weight: bold;
+}
+
+.salad_price > span{
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.salad_price{
+    position: relative;
+    top: 8px;
+    font-size: 20px;
+}
+
+.salad_rating{
+    width: 45px;
+    position: relative;
+    left: 230px;
+    top: 30px;
+    font-size: 16px;
+}
+
+#arrow_buttons{
+    display: flex;
+    width: 110px;
+    justify-content: space-between;
+    position: relative;
+    left: 985px;
+    top: -45px;
+}
+#arrow_buttons > #left{
+    border-radius: 50%;
+    background-color:#efefef;
+    width: 40px;
+    height: 40px;
+}
+#arrow_buttons > #right{
+    border-radius: 50%;
+    background-color:#39DB4A;
+    width: 40px;
+    height: 40px;
+}
+#arrow_buttons > #left > img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 15px;
+    top: 10px;
+}
+#arrow_buttons > #right > img{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+#thpage{
+    height: 680px;
+}
+
+#chef > img{
+    height: 600px;
+    width: 480px;
+    position: relative;
+    left: 30px;
+}
+#heads3{
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 580px;
+    top: -530px;
+    gap: 35px;
+}
+#heads3 > #testimonial{
+    width: 200px;
+    color: #FF7979;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+#heads3 > h1{
+    width: 500px;
+    font-size: 48px;
+}
+#heads3 > #para{
+    width: 500px;
+    color:#555555;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: bold;
+}
+
+#group_reviews{
+    display: flex;
+    position: relative;
+    left: 580px;
+}
+.cust{
+    width: 60px;
+    height: 60px;
+}
+.cust2{
+    position: relative;
+    left: -20px;
+    top: -5px;
+    height: 70px;
+    width: 70px;
+}
+.cust3{
+    position: relative;
+    left: -42px;
+    top: -5px;
+    height: 70px;
+    width: 70px;
+}
+#review_star{
+    height: 20px;
+    width: 20px;
+}
+#group_reviews {
+    width: 580px;
+    position: relative;
+    top: -480px;
+}
+#group_reviews > #customer_feedback{
+    font-weight: bold;
+    font-size: 20px;
+    position: relative;
+    left: -10px;
+}
+
+#group_reviews > span{
+    height: 20px;
+    position: relative;
+    top: 40px;
+    left: -190px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.726);
+
+}
+#review_star{
+    position: relative;
+    top: 38.5px;
+    left: -200px;
+}
+
+#group_reviews > #numbered_review{
+    font-weight: bold;
+    color: #555555;
+    letter-spacing: 1px;
+    position: relative;
+    left: -170px;
+    top: 38px;
+}
+#fopage{
+    height: 750px;
+}
+#fifpage{
+    height: 550px;
+}
+#services{
+    display: flex;
+    flex-flow: row wrap;
+    width: 670px;
+
+}
+
+
+
+#about > #ourstory{
+    color: #FF7979;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-size: 16px;
+    line-height: 100px;
+}
+#about > h1{
+    font-size: 45px;
+}
+#about > #rooted{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #555555;
+    line-height: 30px;
+    font-size: 18px;
+}
+
+#about > button{
+    border: 0;
+    border-radius: 40px;
+    padding: 15px 25px 15px 25px;
+    background-color: #5FE26C;
+    height: 55px;
+    width: 150px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    letter-spacing: 1px;
+    position: relative;
+    top: 40px;
+}
+li{
+    list-style-type: none;
+}
+.services> li > img{
+    width: 50px;
+    height: 50px;
+}
+
+.menu {
+    position: relative;
+    left: 600px;
+    top: -350px;
+    width: 450px;
+}
+
+.serv1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+.serv2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.serv1 > li{
+    box-shadow: 0px 0px 8px 0px #bcbbbb;
+    border-radius: 20px;
+    width: 180px;
+    padding: 35px 15px 15px 15px;
+    height: 160px;
+
+}
+.serv1 > li > img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 65px;
+}
+
+.serv1 > li > h3{
+    width: 150px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: #39DB4A;
+}
+.serv1 >li > #salad_heads{
+    width: 100px;
+    left: 40px;
+}
+.serv1 > li > p{
+    font-size: 14px;
+    font-weight: bold;
+    color:#90BD95;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.serv2 > li{
+    box-shadow: 0px 0px 8px 0px #bcbbbb;
+    border-radius: 20px;
+    width: 180px;
+    padding: 35px 15px 15px 15px;
+    height: 160px;
+
+}
+.serv2 > li > img{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 65px;
+}
+
+.serv2 > li > h3{
+    width: 150px;
+    position: relative;
+    left: 15px;
+    top: 15px;
+    color: #39DB4A;
+}
+.serv2 > li > p{
+    font-size: 14px;
+    font-weight: bold;
+    color:#90BD95;
+    position: relative;
+    top: 30px;
+    text-align: center;
+}
+.serv2 >li > #shop_heads{
+    width: 180px;
+    left: 2px;
+}
+.serv2 >li > #gift_heads{
+    width: 120px;
+    left: 35px;
+}
+
+#ad > img{
+    width: 90px;
+    height: 32px;
+    position: relative;
+    top: 100px;
+}
+#ad > p{
+    font-size: 18px;
+    color: #555555;
+    line-height: 22px;
+    position: relative;
+    top: 130px;
+    font-weight: bold;
+    word-spacing: 2px;
+}
+
+#ad > ul{
+    display: flex;
+    gap: 20px;
+}
+#ad > ul > li > #facebook{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    border: 0;
+    background-color:#39DB4A;
+}
+#ad > ul > li > #instagram{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    border: 0;
+    background-color:#EDFFEF;
+}
+#ad > ul > li > #twitter{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    border: 0;
+    background-color:#EDFFEF;
+}
+#ad > ul > li > #youtube{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    position: relative;
+    top: 300px;
+    border: 0;
+    background-color:#EDFFEF;
+}
+
+#ad > ul > li > button > #insta{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -1px;
+    top: 1px;
+}
+#ad > ul > li > button > #twit{
+    width: 20px;
+    height: 20px;
+    position: relative;
+    left: -1px;
+    top: 1px;
+}
+#ad > ul > li > button > #yt{
+    width: 26px;
+    height: 20px;
+    position: relative;
+    left: 0px;
+    top: 1px;
+}
+#ad > ul > li > button > #fb{
+    width: 14px;
+    height: 22px;
+    position: relative;
+    left: -1px;
+    top: 1px;
+}
+
+#about_us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#main_menu{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#contact_us{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+#about_us > li > button{
+    border: 0;
+    background-color: white;
+    font-size: 18px;
+    color: #555555;
+    font-weight: bold;
+}
+#main_menu > li > button{
+    border: 0;
+    background-color: white;
+    font-size: 18px;
+    color: #555555;
+    font-weight: bold;
+}
+#contact_us > li > button{
+    border: 0;
+    background-color: white;
+    font-size: 18px;
+    color: #555555;
+    font-weight: bold;
+}
+#main_menu{
+    display: flex;
+    flex-direction: column;
+}
+#contact_us{
+    display: flex;
+    flex-direction: column;
+}
+#links{
+    width: 650px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    left: 400px;
+    top: -43px;
+}
+#footer > p{
+    position: relative;
+    left: 380px;
+    top: 90px;
+    width: 350px;
+    color: #555555;
+    word-spacing: 3px;
+}
+#footer > p > img{
+    position: relative;
+    top: 2px;
+    width: 13px;
+    height: 13px;
+}
